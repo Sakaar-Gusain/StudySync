@@ -146,7 +146,7 @@ export default function Habits() {
                                 name={field.name}
                                 value={formData[field.name]}
                                 onChange={handleChange}
-                                className=" text-white border border-emerald-200 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-600"
+                                className=" text-black border border-emerald-200 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-600"
                             >
                                 <option value="True">True</option>
                                 <option value="False">False</option>
