@@ -46,7 +46,7 @@ export default function Demo() {
             };
 
             const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/demo`, {
-                method: 'POST',
+                method: 'GET',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(payload),
             });
