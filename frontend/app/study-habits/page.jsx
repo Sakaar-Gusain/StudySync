@@ -86,7 +86,7 @@ export default function Habits() {
 
     const numeric = [
         { name: 'study_hours_per_day', label: "Hours of daily study" },
-        { name: 'attendance_percentage', label: 'Attendance Percentage' },
+        { name: 'attendance_percentage', label: 'Attendance Percent' },
         { name: 'social_media_hours', label: 'Social Media time' },
         { name: 'netflix_hours', label: 'TV/Streaming time' },
         { name: 'sleep_hours', label: 'Average sleep taken' }
